@@ -15,7 +15,7 @@ class Navbar extends React.Component{
     return(
       <header>
         <div>
-          <nav style={{position:'fixed'}} className="blue-grey darken-3">
+          <nav style={{position:'fixed',zIndex:'1'}} className="blue-grey darken-3">
             <div className="nav-wrapper">
               <div className="brand-logo">
             <NavLink to="/">
@@ -26,6 +26,12 @@ class Navbar extends React.Component{
             <a href="gfggg" data-target="mobile-demo" className="button-collapse sidenav-trigger"><i className="material-icons">menu</i></a>
   
             <ul id="nav-mobile" className="right hide-on-med-and-down">
+  
+              <li>
+            <NavLink to="/">
+              Home
+            </NavLink>
+            </li>
   
               <li>
             <NavLink to="/projects">
@@ -49,6 +55,12 @@ class Navbar extends React.Component{
           </nav>
   
           <ul className="sidenav blue-grey darken-3" id="mobile-demo">
+          <li>
+            <NavLink to="/">
+              Home
+            </NavLink>
+            </li>
+
       <li><NavLink to="/portfolio">
               Portfolio
             </NavLink></li>

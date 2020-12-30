@@ -67,6 +67,8 @@ class Blog extends React.Component{
         </Link>
         ))}
         </div>
+
+        
         </main>
     )
   }

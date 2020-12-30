@@ -1,0 +1,32 @@
+#parallel {
+  margin: 0 0 0 15px;
+  -webkit-transform: skew(-8deg);
+  -moz-transform: skew(-8deg);
+  -o-transform: skew(-8deg);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 15px 15px 2px 2px #d3d3d3;
+}
+
+.card {
+  opacity: 0.9;
+}
+
+.light {
+  color: #2e7d32;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#aboutBackground {
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background: url('./img/img003.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -39,7 +39,7 @@ componentDidMount(){
             <h1 className="animate__animated animate__fadeInDown">Hi, I'm Chijindu</h1>
             
             
-            <h3  className="animate__animated animate__fadeInLeft">a frontend </h3> <h3 className=" green-text animate__animated animate__fadeInRight">developer...</h3>
+            <h3  className="animate__animated animate__fadeInLeft">a frontend </h3> <h3 className="  animate__animated animate__fadeInRight">developer...</h3>
 
             
             
