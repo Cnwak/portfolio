@@ -33,7 +33,7 @@ const About=()=>{
   I am eager to learn new things and have a lot of a 'can do' attitude. Javascript logic and manipulation interests me. I'm also a trained  medic and have a soft spot for the health tech space.  <a href="#strive">Check out what I strive to achieve</a> with each project and my <a href="#stack">code stack</a>. 
 </p>
 
-<p>Contact Me:  <span><a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer"><i className="blue-text fa fa-twitter fa-sm" aria-hidden="true"></i></a></span>   <span ><a href="mailto:cnnwakama@gmail.com?subject=Hi Chijindu, Let's do business&body=I'm interested in..." target="_blank" rel="noreferrer"><i  className="red-text  fa fa-envelope-o fa-sm" aria-hidden="true"></i></a></span>   </p>
+<p>Contact Me:  <span><a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer">{null}<i className="blue-text fa fa-twitter fa-sm" aria-hidden="true"></i></a></span>   <span ><a href="mailto:cnnwakama@gmail.com?subject=Hi Chijindu, Let's do business&body=I'm interested in..." target="_blank" rel="noreferrer">{null}<i  className="red-text  fa fa-envelope-o fa-sm" aria-hidden="true"></i></a></span>   </p>
 </div> : <div>
 
           
@@ -43,7 +43,7 @@ const About=()=>{
   I am eager to learn new things and have a lot of a 'can do' attitude. Javascript logic and manipulation interests me. I'm also a trained  medic and have a soft spot for the health tech space.  <a href="#strive">Check out what I strive to achieve</a> with each project and my <a href="#stack">code stack</a>. 
 </h6>
 
-<h6>Contact Me:  <span><a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer"><i className="blue-text fa fa-twitter fa-sm" aria-hidden="true"></i></a></span>   <span ><a href="mailto:cnnwakama@gmail.com?subject=Hi Chijindu, Let's do business&body=I'm interested in..." target="_blank" rel="noreferrer"><i  className="red-text  fa fa-envelope-o fa-sm" aria-hidden="true"></i></a></span>   </h6>
+<h6>Contact Me:  <span><a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer">{null}<i className="blue-text fa fa-twitter fa-sm" aria-hidden="true"></i></a></span>   <span ><a href="mailto:cnnwakama@gmail.com?subject=Hi Chijindu, Let's do business&body=I'm interested in..." target="_blank" rel="noreferrer">{null}<i  className="red-text  fa fa-envelope-o fa-sm" aria-hidden="true"></i></a></span>   </h6>
 </div>}
           
         </div>
