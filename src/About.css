@@ -21,8 +21,8 @@ html {
 }
 
 #aboutBackground {
-  z-index: 1;
-  height: 100vh;
+  /* z-index: ; */
+  height: 120vh;
   width: 100%;
   background: url('./img/img003.jpg') no-repeat center center fixed;
   -moz-background-size: cover;

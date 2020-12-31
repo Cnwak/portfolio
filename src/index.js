@@ -25,7 +25,7 @@ class App extends React.Component{
 
         <Route component={About} path='/about'/>
 
-        <Route component={Portfolio} path='/portfolio'/>
+        <Route component={Portfolio} path='/projects'/>
         
         <Route component={SinglePost} path='/blog/:slug'/>
 

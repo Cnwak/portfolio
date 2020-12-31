@@ -54,16 +54,16 @@ componentDidMount(){
       <div className="center-align">
         <div className="row">
           <div className="col s6 l3 m3">
-            <h5>Github</h5>
+            <a href="https://github.com/Cnwak" target="_blank" rel="noreferrer"><h5>Github</h5></a>
           </div>
           <div className="col s6 l3 m3">
-            <h5>Twitter</h5>
+            <a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer"><h5>Twitter</h5></a>
           </div>
           <div className="col s6 l3 m3">
-            <h5>CodePen</h5>
+            <a href="https://codepen.io/cnwaks" target="_blank" rel="noreferrer"><h5>CodePen</h5></a>
           </div>
           <div className="col s6 l3 m3">
-            <h5>Stack Overflow</h5>
+            <a href="https://stackoverflow.com/users/14422646/chijindu" target="_blank" rel="noreferrer"><h5>Stack Overflow</h5></a>
           </div>
         </div>
       </div>
