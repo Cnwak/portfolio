@@ -5,6 +5,15 @@ section {
   /* backdrop-filter: blur(8px); */
 }
 
+a,
+a:link,
+a:visited {
+  color: black;
+}
+a:hover {
+  color: green;
+}
+
 #back {
   background: url('./img/img001.jpg') no-repeat center center fixed;
   -moz-background-size: cover;

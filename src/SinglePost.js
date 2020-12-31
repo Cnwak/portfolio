@@ -53,7 +53,7 @@ const SinglePost=()=> {
        <br/>
        <br/>
        <br/>
-      <article className="blue-grey lighten-3 container center-align">
+      <article className="white container center-align">
         <div className="row">
           <div className="col s10">
           <header>
