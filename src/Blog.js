@@ -38,18 +38,18 @@ class Blog extends React.Component{
         <br/>
         <br/>
 
-        <div  className="white-text center-align">
-          <h2>Chijindu's Blog</h2>
-          <h4>Welcome to my blog page...</h4>
+        <div  className="font1  center-align">
+          <h2 style={{color:'#DCD6F7'}}>Chijindu's Blog</h2>
+          <h4 style={{color:'#DCD6F7'}}>Welcome to my blog page...</h4>
         </div>
         <br/>
 
-        <div className="row">
+        <div className="row" style={{backgroundColor:'#4e4c67'}}>
           
 
         {this.state.postData && this.state.postData.map((post,index)=>(
           <Link to={"/blog/" + post.slug.current} key={post.slug.current}>
-          <div key={index} className="col s12 m6 l4">
+          <div key={index} className="col s12 m6 l4" style={{marginBottom:'100px'}}>
           <div style={{borderRadius:'30px'}} className="card small">
           <div  className="card-image waves-effect waves-block waves-light">
             <img style={{borderRadius:'30px'}}  className="activator" src={post.mainImage.asset.url} alt={post.mainImage.alt}/>
@@ -65,7 +65,9 @@ class Blog extends React.Component{
         </div>
         </div>
         </Link>
+        
         ))}
+         
         </div>
 
         

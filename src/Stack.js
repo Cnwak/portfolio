@@ -18,7 +18,7 @@ const Stack =()=>{
 </div>
 
 
-<div className="grey darken-2" style={{height:'50px',width:'100%'}}></div>
+<div  style={{height:'50px',width:'100%',backgroundColor:'#A6B1E1'}}></div>
 
   <div className="row">
   <div className="col s4"><img src="https://img.icons8.com/ios-filled/70/000000/react-native.png" alt="JS"/><p style={{display:'block'}}>React</p></div>
@@ -29,7 +29,7 @@ const Stack =()=>{
 
 </div>
 
-<div className="grey darken-2" style={{height:'50px',width:'100%'}}></div>
+<div  style={{backgroundColor:'#A6B1E1',height:'50px',width:'100%'}}></div>
 
 
 <div className="row">

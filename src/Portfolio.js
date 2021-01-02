@@ -8,12 +8,12 @@ import mockup5 from './img/mockups/mockup5.png'
 
 const Portfolio=()=>{
   return(
-    <div>
+    <div style={{backgroundColor:'#DCD6F7'}}>
       <Navbar/>
       <br/>
       <br/>
       <div className="center-align">
-      <h1>Projects</h1>
+      <h1 className="font1">Projects</h1>
       </div>
       <br/>
 

@@ -15,9 +15,9 @@ class Navbar extends React.Component{
     return(
       <header>
         <div>
-          <nav style={{position:'fixed',zIndex:'1'}} className="blue-grey darken-3">
+          <nav style={{color:'#985F6F',opacity:'0.7', position:'fixed',zIndex:'1'}} className="">
             <div className="nav-wrapper">
-              <div className="brand-logo">
+              <div className="brand-logo font1">
             <NavLink to="/">
               Chijindu
             </NavLink>

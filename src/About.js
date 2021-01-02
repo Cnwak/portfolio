@@ -21,9 +21,9 @@ const About=()=>{
           <div
           id="parallel"
           style={{zIndex:''}}
-          className="card responsive-img blue-grey darken-1">
-        <div className="card-content white-text">
-          <span className="card-title">About Me</span>
+          className="card responsive-img ">
+        <div className="card-content ">
+          <span className="card-title font1">About Me</span>
           {window.innerWidth < 320 ? <div>
 
           
@@ -55,7 +55,7 @@ const About=()=>{
           </div>
           </section>
       
-      <div id="strive" className="blue-grey lighten-4" style={{marginTop:'76px'}}>
+      <div id="strive" className="" style={{marginTop:'-42px'}}>
       
       <div  className="row">
 
@@ -85,7 +85,7 @@ const About=()=>{
 
       </div>
       
-<div style={{marginTop:'-20px'}} id="stack" className="grey darken-1 center-align ">
+<div style={{marginTop:'-20px'}} id="stack" className=" center-align ">
  <Stack/></div>
       </div>
   )
