@@ -24,6 +24,7 @@ componentDidMount(){
       <div ><Loading/>
       </div>
       )
+      
     }else{
     return(
       
