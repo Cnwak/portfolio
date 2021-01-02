@@ -54,7 +54,7 @@ class Navbar extends React.Component{
             </div>
           </nav>
   
-          <ul className="sidenav blue-grey darken-3" id="mobile-demo">
+          <ul style={{backgroundColor:'#985F6F'}} className="sidenav " id="mobile-demo">
           <li>
             <NavLink to="/">
               Home
