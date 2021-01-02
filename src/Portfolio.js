@@ -32,7 +32,7 @@ const Portfolio=()=>{
         <br/>
         {/* BREAK */}
         <div className="col s12 m6">
-          <img src={mockup1} alt="mockup1" height="250px"/>
+          <img src={mockup1} alt="mockup1" height="220px"/>
         </div>
       </div>
       <br/>
@@ -54,7 +54,7 @@ const Portfolio=()=>{
         <br/>
         {/* BREAK */}
         <div className="col s12 m6">
-          <img src={mockup2} alt="mockup2" height="250px"/>
+          <img src={mockup2} alt="mockup2" height="220px"/>
         </div>
       </div>
       <br/>
@@ -76,7 +76,7 @@ const Portfolio=()=>{
         <br/>
         {/* BREAK */}
         <div className="col s12 m6">
-          <img src={mockup3} alt="mockup3" height="250px"/>
+          <img src={mockup3} alt="mockup3" height="220px"/>
         </div>
       </div>
       <br/>
@@ -98,7 +98,7 @@ const Portfolio=()=>{
         <br/>
         {/* BREAK */}
         <div className="col s12 m6">
-          <img src={mockup4} alt="mockup3" height="250px"/>
+          <img src={mockup4} alt="mockup3" height="220px"/>
         </div>
       </div>
       <br/>
@@ -121,7 +121,7 @@ const Portfolio=()=>{
         <br/>
         {/* BREAK */}
         <div className="col s12 m6">
-          <img src={mockup5} alt="mockup3" height="250px"/>
+          <img src={mockup5} alt="mockup3" height="220px"/>
         </div>
       </div>
 
