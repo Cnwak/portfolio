@@ -58,19 +58,20 @@ componentDidMount(){
 
       </section>
 
-      <div className="center-align">
+      <div className="center-align" >
         <div className="row">
           <div className="col s6 l3 m3">
             <a href="https://github.com/Cnwak" target="_blank" rel="noreferrer"><h5>Github</h5></a>
           </div>
+          
           <div className="col s6 l3 m3">
             <a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer"><h5>Twitter</h5></a>
           </div>
-          <br/>
-          <br/>
-          <div className="col s6 l3 m3">
+          
+          <div  className="col s6 l3 m3">
             <a href="https://codepen.io/cnwaks" target="_blank" rel="noreferrer"><h5>CodePen</h5></a>
           </div>
+          
           <div className="col s6 l3 m3">
             <a href="https://stackoverflow.com/users/14422646/chijindu" target="_blank" rel="noreferrer"><h5>Stack Overflow</h5></a>
           </div>
