@@ -10,6 +10,22 @@
 
 #stack {
   background-color: #dcd6f7;
+  margin-top: -20px;
+}
+
+#icon3 {
+  margin-bottom: 40px;
+}
+
+#icon1,
+#icon2 {
+  margin-bottom: 80px;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+  margin-top: 40px;
 }
 
 .card {
