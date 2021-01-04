@@ -4,6 +4,17 @@
   font-family: 'Redressed', cursive;
 }
 
+#links {
+  position: absolute;
+  width: 100%;
+  background-color: #4e4c67;
+  z-index: -2;
+}
+
+#links a:hover {
+  color: #985f6f;
+}
+
 #back {
   margin: 0;
   padding: 0;
@@ -22,7 +33,7 @@
   line-height: 1.6;
   position: relative;
   font-family: sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .lines {

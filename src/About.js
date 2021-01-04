@@ -20,7 +20,6 @@ const About=()=>{
           <div className="col s12 ">
           <div
           id="parallel"
-          style={{zIndex:''}}
           className="card responsive-img ">
         <div className="card-content ">
           <span className="card-title font1">About Me</span>
@@ -55,7 +54,7 @@ const About=()=>{
           </div>
           </section>
       
-      <div id="strive" className="" style={{marginTop:'-42px'}}>
+      <div id="strive" className="" style={{marginTop:'-44px'}}>
       
       <div  className="row">
 
