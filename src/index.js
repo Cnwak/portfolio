@@ -30,6 +30,8 @@ class App extends React.Component{
         <Route component={SinglePost} path='/blog/:slug'/>
 
         <Route component={Blog} path='/blog' />
+
+        <Route component={Home}/>
       </Switch>
         </BrowserRouter>
         
