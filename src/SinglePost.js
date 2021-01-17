@@ -42,7 +42,7 @@ const SinglePost=()=> {
   
     
   if(!singlePost){
-    return <div style={{height:''}}>Loading...</div>
+    return <div style={{height:'',display:'none'}}>Loading...</div>
   }else{
   return(<div id="mainDiv">
     <Navbar/>
