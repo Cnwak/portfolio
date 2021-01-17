@@ -46,7 +46,7 @@ const SinglePost=()=> {
   }else{
   return(<div id="mainDiv">
     <Navbar/>
-    <br/>
+    
     <main id="singleBack"
      style={{backgroundImage: `url(${singlePost.mainImage.asset.url})`}}
      >
