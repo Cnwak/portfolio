@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import Loading from './LoadingScreen'
 import Navbar from './Navbar'
 import './Home.css'
@@ -61,21 +62,29 @@ componentDidMount(){
 
       <div id="links"  className="center-align" >
         <div  className="row">
+
+        <div  className="col s6 l3 m3">
+        <NavLink to="/projects">
+              <h5>View Projects</h5>
+            </NavLink>
+          </div>
+
+
           <div className="col s6 l3 m3">
-            <a style={{zIndex:'2'}} href="https://github.com/Cnwak" target="_blank" rel="noreferrer"><h5 >Github</h5></a>
+            <a href="https://dev.to/cnwak" target="_blank" rel="noreferrer"><h5>DEV Blog</h5></a>
+          </div>
+
+
+          <div className="col s6 l3 m3">
+            <a  href="https://github.com/Cnwak" target="_blank" rel="noreferrer"><h5 >Github</h5></a>
           </div>
           
-          <div className="col s6 l3 m3">
-            <a href="https://twitter.com/CNwaks" target="_blank" rel="noreferrer"><h5>Twitter</h5></a>
-          </div>
           
           <div  className="col s6 l3 m3">
             <a href="https://codepen.io/cnwaks" target="_blank" rel="noreferrer"><h5>CodePen</h5></a>
           </div>
           
-          <div  className="col s6 l3 m3">
-            <a href="https://stackoverflow.com/users/14422646/chijindu" target="_blank" rel="noreferrer"><h5>Stack Overflow</h5></a>
-          </div>
+          
         </div>
       </div>
 
