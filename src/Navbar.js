@@ -15,9 +15,9 @@ class Navbar extends React.Component{
     return(
       <header>
         <div>
-          <nav style={{position:'fixed',zIndex:'1'}} className="blue-grey darken-3">
+          <nav style={{color:'#985F6F',opacity:'0.7', position:'fixed',zIndex:'1'}} className="">
             <div className="nav-wrapper">
-              <div className="brand-logo">
+              <div className="center brand-logo font1">
             <NavLink to="/">
               Chijindu
             </NavLink>
@@ -54,7 +54,7 @@ class Navbar extends React.Component{
             </div>
           </nav>
   
-          <ul className="sidenav blue-grey darken-3" id="mobile-demo">
+          <ul style={{backgroundColor:'#985F6F'}} className="sidenav " id="mobile-demo">
           <li>
             <NavLink to="/">
               Home

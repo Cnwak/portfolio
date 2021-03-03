@@ -8,6 +8,14 @@ import Blog from './Blog'
 import Home from './Home'
 
 
+
+const BackHome =()=>{
+  <div>
+    <h3>GET BACK HOME!</h3>
+  </div>
+}
+
+
 class App extends React.Component{
 
 
@@ -30,6 +38,8 @@ class App extends React.Component{
         <Route component={SinglePost} path='/blog/:slug'/>
 
         <Route component={Blog} path='/blog' />
+
+        <Route component={BackHome}/>
       </Switch>
         </BrowserRouter>
         
