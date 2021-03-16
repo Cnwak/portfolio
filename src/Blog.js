@@ -42,6 +42,7 @@ class Blog extends React.Component{
           <h2 style={{color:'#DCD6F7'}}>Chijindu's Blog</h2>
           <h4 style={{color:'#DCD6F7'}}>Welcome to my blog page...</h4>
         </div>
+
         <br/>
 
         <div className="row" style={{backgroundColor:'#4e4c67'}}>
@@ -69,6 +70,9 @@ class Blog extends React.Component{
         ))}
          
         </div>
+
+        <div className="center-align"><h6 style={{color:'#DCD6F7'}}>N.B: I typically made this blog section in my portfolio as a space for non-tech & non-medical musings. Click <span><a href="https://dev.to/cnwak" target="_blank" rel="noreferrer">here</a></span> to access my DEV blog posts</h6></div>
+       
 
         
         </main>
