@@ -33,6 +33,10 @@ const Stack =()=>{
 
 
 <div className="row">
+
+  <div style={{marginTop:'25px'}} className="col s4"><img src="https://img.icons8.com/ios-filled/50/000000/python.png" alt="python"/><p style={{display:'block'}}>Python</p></div>
+
+
   <div className="black-text col s4"><img src={materializeLogo} height="80px" alt="Materialize"/><p style={{display:'block'}}>Materialize CSS</p></div>
 
   <div style={{marginTop:'45px'}} className="black-text col s4"><img src={sanityLogo} height="30px" alt="Sanity"/><p style={{display:'block'}}>Sanity.io</p></div>

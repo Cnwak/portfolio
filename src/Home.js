@@ -47,7 +47,7 @@ componentDidMount(){
             <h2 className="animate__animated animate__fadeInDown ">Hi, I'm Chijindu</h2>
             
             
-            <h4  className="animate__animated animate__fadeInLeft font1">a software </h4> <h3 className="  animate__animated animate__fadeInRight">developer...</h3>
+            <h4  className="animate__animated animate__fadeInLeft font1">a fullstack </h4> <h3 className="  animate__animated animate__fadeInRight">developer...</h3>
 
             
             
