@@ -74,7 +74,7 @@ class Blog extends React.Component{
       <div id="backgroundColor2" className="center-align"><h6>N.B: I typically made this blog section in my portfolio as a space for non-tech & non-medical musings. Click <span><a href="https://dev.to/cnwak" target="_blank" rel="noreferrer">here</a></span> to access my DEV blog posts</h6></div>   
   
       
-        
+        <br/>
         </main>
     )
   }
