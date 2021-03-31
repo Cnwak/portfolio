@@ -1,11 +1,11 @@
 #parallel {
   margin: 0 0 0 15px;
-  -webkit-transform: skew(-8deg);
-  -moz-transform: skew(-8deg);
-  -o-transform: skew(-8deg);
+  -webkit-transform: skew(-5deg);
+  -moz-transform: skew(-5deg);
+  -o-transform: skew(-5deg);
   overflow: hidden;
   position: relative;
-  box-shadow: 15px 15px 2px 2px #d3d3d3;
+  box-shadow: 10px 10px 2px 2px #d3d3d3;
 }
 
 #stack {
@@ -45,7 +45,7 @@ html {
 #aboutBackground {
   /* z-index: ; */
   height: 100vh;
-  width: 104%;
+  width: 100%;
   background-color: #dcd6f7;
   /* -moz-background-size: cover;
   -webkit-background-size: cover;
