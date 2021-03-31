@@ -39,7 +39,7 @@ const Stack =()=>{
 
   <div className="black-text col s4"><img src={materializeLogo} height="80px" alt="Materialize"/><p style={{display:'block'}}>Materialize CSS</p></div>
 
-  <div style={{marginTop:'45px'}} className="black-text col s4"><img src={sanityLogo} height="30px" alt="Sanity"/><p style={{display:'block'}}>Sanity.io</p></div>
+  <div style={{marginTop:'45px'}} className="black-text col s4"><img src={sanityLogo} height="20px" alt="Sanity"/><p style={{display:'block'}}>Sanity.io</p></div>
 
 </div>
 

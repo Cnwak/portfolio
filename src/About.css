@@ -10,6 +10,7 @@
 
 #stack {
   background-color: #dcd6f7;
+
   margin-top: -20px;
 }
 
@@ -44,7 +45,7 @@ html {
 #aboutBackground {
   /* z-index: ; */
   height: 100vh;
-  width: 100%;
+  width: 110%;
   background-color: #dcd6f7;
   /* -moz-background-size: cover;
   -webkit-background-size: cover;
