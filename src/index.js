@@ -35,7 +35,7 @@ class App extends React.Component {
 
           <Route component={Portfolio} path='/projects' />
 
-          <Route component={SinglePost} path='/blog/:slug' />
+          <Route component={SinglePost} path='/:slug' />
 
           <Route component={Blog} path='/' exact />
 
