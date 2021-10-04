@@ -20,10 +20,9 @@ const About=()=>{
           <div className="col s12 ">
           <div
           id="parallel"
-          style={{zIndex:''}}
-          className="card responsive-img blue-grey darken-1">
-        <div className="card-content white-text">
-          <span className="card-title">About Me</span>
+          className="card responsive-img ">
+        <div className="card-content ">
+          <span className="card-title font1">About Me</span>
           {window.innerWidth < 320 ? <div>
 
           
@@ -55,26 +54,27 @@ const About=()=>{
           </div>
           </section>
       
-      <div id="strive" className="blue-grey lighten-4" style={{marginTop:'76px'}}>
+      <div id="strive" className="" style={{marginTop:'-44px'}}>
       
       <div  className="row">
 
       
-      <div className="col s4">
-      <div className="center promo promo-example">
+      <div className="col s12 m4">
+      <div id="icon1"  className="center promo promo-example">
                 <i className="material-icons large">computer</i>
                 <p className="promo-caption">User Interface/ Experience Focused</p>
                 <p className=" light center">By using standard ES6 JavaScript and modern HTML/CSS (+ frameworks), I strive to deliver top of the line UI/UX to users for the best of project experiences.</p>
               </div>
               </div>
-      <div className="col s4">
-      <div className="center promo promo-example">
+              
+      <div className="col s12 m4">
+      <div id="icon2"  className="center promo promo-example">
                 <i className="material-icons large">group</i>
                 <p className="promo-caption">A Team Player</p>
                 <p className="light center">I strive for top of the line, all hands on deck team collaboration. I bring my full attention, focus and commitment to group projects</p>
               </div>
               </div>
-      <div className="col s4">
+      <div id="icon3"  className="col s12 m4">
       <div className="center promo promo-example">
                 <i className="material-icons large">build</i>
                 <p className="promo-caption">Uses Clean Reusable Code</p>
@@ -85,7 +85,7 @@ const About=()=>{
 
       </div>
       
-<div style={{marginTop:'-20px'}} id="stack" className="grey darken-1 center-align ">
+<div  id="stack" className=" center-align ">
  <Stack/></div>
       </div>
   )
