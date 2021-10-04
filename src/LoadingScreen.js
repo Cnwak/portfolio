@@ -20,7 +20,7 @@ const Loading =()=>{
 
         <div className="role">
             <div className="block"></div>
-            <p>UI/UX Dev designer</p>
+            <p>Software Developer</p>
         </div>
 
     </div>

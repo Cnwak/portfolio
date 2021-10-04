@@ -1,9 +1,16 @@
 #blogBackground {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-color: #4e4c67;
+
   /* -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
 }
+
+/* #backgroundColor2 {
+  height: 100%;
+  width: 100%;
+  background-color: #4e4c67;
+} */
