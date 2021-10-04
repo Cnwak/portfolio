@@ -1,83 +1,83 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import 'materialize-css/dist/css/materialize.min.css';
-import M from  'materialize-css/dist/js/materialize.min.js';
+import M from 'materialize-css/dist/js/materialize.min.js';
 
 
-class Navbar extends React.Component{
+class Navbar extends React.Component {
 
-  componentDidMount=()=>{
+  componentDidMount = () => {
     let sidenav = document.querySelector('#mobile-demo');
     M.Sidenav.init(sidenav, {});
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <header>
         <div>
-          <nav style={{color:'#985F6F',opacity:'0.7', position:'fixed',zIndex:'1'}} className="">
+          <nav style={{ color: '#985F6F', opacity: '0.7', position: 'fixed', zIndex: '1' }} className="">
             <div className="nav-wrapper">
               <div className="center brand-logo font1">
-            <NavLink to="/">
-              Chijindu
-            </NavLink>
-            </div>
-  
-            <a href="gfggg" data-target="mobile-demo" className="button-collapse sidenav-trigger"><i className="material-icons">menu</i></a>
-  
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-  
-              <li>
-            <NavLink to="/">
-              Home
-            </NavLink>
-            </li>
-  
-              <li>
-            <NavLink to="/projects">
-              Projects
-            </NavLink>
-            </li>
-  
-            <li>
-            <NavLink to="/blog">
-              Blog
-            </NavLink>
-            </li>
-  
-            <li>
-            <NavLink to="/about">
-              About
-            </NavLink>
-            </li>
-            </ul>
+                <NavLink to="/">
+                  Chijindu
+                </NavLink>
+              </div>
+
+              <a href="gfggg" data-target="mobile-demo" className="button-collapse sidenav-trigger"><i className="material-icons">menu</i></a>
+
+              <ul id="nav-mobile" className="right hide-on-med-and-down">
+
+                <li>
+                  <NavLink to="/home">
+                    Home
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/projects">
+                    Projects
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/">
+                    Blog
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/about">
+                    About
+                  </NavLink>
+                </li>
+              </ul>
             </div>
           </nav>
-  
-          <ul style={{backgroundColor:'#985F6F'}} className="sidenav " id="mobile-demo">
-          <li>
-            <NavLink to="/">
-              Home
-            </NavLink>
+
+          <ul style={{ backgroundColor: '#985F6F' }} className="sidenav " id="mobile-demo">
+            <li>
+              <NavLink to="/home">
+                Home
+              </NavLink>
             </li>
 
-      <li><NavLink to="/projects">
+            <li><NavLink to="/projects">
               Projects
             </NavLink></li>
-      <li><NavLink to="/blog">
+            <li><NavLink to="/blog">
               Blog
             </NavLink></li>
-      <li><NavLink to="/about">
+            <li><NavLink to="/about">
               About
             </NavLink></li>
-      
-    </ul>
+
+          </ul>
         </div>
       </header>
     )
-  
-  }
 
   }
+
+}
 
 export default Navbar
